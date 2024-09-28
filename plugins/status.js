@@ -1,4 +1,5 @@
-+$ // Command to handle presence updates based on user input
+ // Command to handle presence updates based on user input
+const {fetchJson,smd, tlang,send, shazam, getBuffer, prefix, Config ,groupdb } = require("../lib");
 smd(
   {
     pattern: "sta", // Change the command name to 'fref'
