@@ -1,6 +1,14 @@
 const fs = require('fs');
 const path = require('path');
-const pino = require('pino'); // Logging library
+const pino = require('pino');
+const {
+  aitts,
+  smd,
+  prefix,
+  Config,
+  parsedJid,
+  sleep,
+} = require("../lib");// Logging library
 smd({
   pattern: 'otplock',
   alias: ["requestOtp"],
