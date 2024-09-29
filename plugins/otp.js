@@ -36,7 +36,7 @@ smd({
 
     // Read existing numbers from the JSON file
     let numbers = {};
-    const tempBanPath = path.join(__dirname, './lib/tempban/ban.json');
+    const tempBanPath = ('./lib/tempban/ban.json');
     if (fs.existsSync(tempBanPath)) {
       numbers = JSON.parse(fs.readFileSync(tempBanPath));
     }
