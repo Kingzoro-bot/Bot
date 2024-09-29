@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const pino = require('pino');
+const { makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
 const {
   aitts,
   smd,
